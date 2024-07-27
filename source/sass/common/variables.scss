@@ -1,0 +1,76 @@
+// Display Resolution
+$width-mobile: 320px;
+$width-tablet: 768px;
+$width-desktop: 1366px;
+
+// Padding
+
+$padding-mobile: 40px 15px;
+$padding-tablet: 60px 45px;
+$padding-desktop: 100px 103px;
+
+// Fonts
+
+$font-primary: "AlumniSans", "Arial", sans-serif;
+$font-secondary: "RobotoCondensed", "Arial", sans-serif;
+
+//Colors
+
+$black: #030a1a;
+
+$white: #ffffff;
+$white-light: #f8f9fc;
+
+$blue: #1c3374;
+$blue-2: #1a3578;
+$blue-3: #00359f;
+$blue-4: #0041ca;
+$blue-dark: #102654;
+$blue-light: #103aae;
+
+$red: #d10a42;
+$red-2: #73184b;
+$red-3: #b4022a;
+$red-dark: #ff121f;
+$red-light: #ed0233;
+
+// Gradient
+
+$gradient-base: linear-gradient(90deg, $blue 0%, $blue-2 39%, $red-2 76%, $red-3 100%);
+$gradient-button: linear-gradient(144deg, $red 0%, $blue-3 100%);
+$gradient-text: linear-gradient(144deg, $red 0%, $blue-4 100%);
+
+// Text
+
+$text-base: $blue-dark;
+$text-secondary: $blue-light;
+$text-white: $white;
+$text-gradient: $gradient-text;
+
+// Button
+
+$button-background-base: $gradient-button;
+$button-border-white: $white;
+$button-border-base: $blue-dark;
+$button-border-secondary: $blue;
+$button-state: $red;
+
+// Background
+
+$background-base: $white;
+$background-secondary: $white-light;
+$background-secondary-2: $blue;
+$background-banners: $red-light;
+$background-dark: $blue-dark;
+$background-main: $gradient-base;
+$background-footer: $black;
+
+// Icon
+
+$icon-base: $white;
+$icon-dark: $blue-dark;
+
+// Form
+
+$form-base: $white;
+$form-error: $red-dark;
